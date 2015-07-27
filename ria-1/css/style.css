@@ -439,6 +439,7 @@ footer a:hover {color:#808080}
     right: 0;
     bottom: 0;
     left: 400px;
+    width: 200px;
 
     display: none;
 
@@ -516,9 +517,10 @@ footer a:hover {color:#808080}
     bottom: 0;
     left: 0;
 
-    width: 100%;
+    width: 99%;
     padding-top: 3px;
     padding-left: 10px;
+    height: 85%;
 
     border: none;
     /*border-bottom: solid 1px #e0e0e0;*/
