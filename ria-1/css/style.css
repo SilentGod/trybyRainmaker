@@ -103,24 +103,6 @@ footer a:hover {color:#808080}
 #ContactForm a span {width:100%}
 #ContactForm .input {float:left;margin:0;width:525px;height:16px;background:#fff;padding:4px 10px;color:#808080;font:14px "Trebuchet MS", Arial, Helvetica, sans-serif}
 #ContactForm textarea {overflow:auto;margin:0;float:left;width:525px;height:289px;background:#fff;padding:4px 10px;color:#808080;font:14px "Trebuchet MS", Arial, Helvetica, sans-serif}
-#header
-{
-    font-size: 25px;
-    font-weight: bold;
-
-    position: absolute;
-    top: 0;
-    left: 0;
-
-    width: 100%;
-    height: 70px;
-    margin: 0 auto;
-    padding-top: 20px;
-    padding-left: 10px;
-
-    color: #979797;
-    background-color: #ddd;
-}
 
 #container
 {
@@ -129,9 +111,9 @@ footer a:hover {color:#808080}
     /*height:100%;*/
     bottom: 0;
 
-    width: 100%;
-    min-width: 900px;
-    min-height: 500px;
+    width: 90%;
+    min-width: 350px;
+    min-height: 700px;
     /*background-color: #efffff;*/
 }
 
@@ -144,14 +126,14 @@ footer a:hover {color:#808080}
 
     width: 200px;
     padding-left: 10px;
-
+    padding-top: 10px;
     border-right: solid 1px #e0e0e0;
     background-color: #f2f2f2;
 }
 
 #menulist #alltask
 {
-    /*max-height: 200px;
+    max-height: 200px;
     min-height: 50px;
     overflow: hidden;*/
 }
@@ -182,7 +164,7 @@ footer a:hover {color:#808080}
 #categorylist li
 {
     position: relative;
-    left: -30px;
+    left: 30px;
 
     width: 199px;
     padding: 5px 0 0 20px;
@@ -250,7 +232,7 @@ footer a:hover {color:#808080}
     top: 0;
     left: 0;
 
-    width: 100%;
+    width: 90%;
     height: 40px;
     padding-top: 12px;
     padding-left: 10px;
@@ -407,12 +389,12 @@ footer a:hover {color:#808080}
 {
     font-size: 15px;
 
-    position: absolute;
+    position: relative;
     top: 100px;
     bottom: 0;
     left: 0;
 
-    width: 100%;
+    width: 60%;
     padding-top: 17px;
     padding-left: 10px;
 
